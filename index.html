@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet at</title>
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- stil dosyası -->
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+
+    <!-- En dış kapsayıcı -->
+
+    <div class="wrapper">
+        <!-- tweet kısım -->
+        <div class="input-box">
+        <!-- tweet yazılan kısım -->
+            <div class="tweet-area">
+                <span class="placeholder">What's happening?</span>
+                <div class="input editable" contenteditable="true" spellcheck="false"></div>
+                <div class="input readonly" contenteditable="true" spellcheck="false"></div>
+
+            </div>
+        <!-- tweet yazılan kısım -->
+
+        <!-- tweetin paylaşım türü kısmı -->
+            <div class="privacy">
+                <i class="fa-solid fa-earth-asia"></i>
+                <span>Everyone can reply</span>
+            </div>
+        <!-- tweetin paylaşım türü kısmı -->
+        </div>
+        <!-- tweet kısım -->
+
+        <div class="bottom">
+            <!-- ikon kısmı -->
+            <ul class="icons">
+                <li><i class="fa-solid fa-file-image"></i></li>
+                <li><i class="fa-solid fa-location-dot"></i></li>
+                <li><i class="fa-regular fa-face-smile"></i></li>
+                <li><i class="fa-regular fa-user"></i></li>
+            </ul>
+            <!-- ikon kısmı -->
+
+            <!-- tweet butonu ve sayaç alanı -->
+            <div class="content">
+                <span class="counter">100</span>
+                <button class="button">Tweet</button>
+            </div>
+            <!-- tweet butonu ve sayaç alanı -->
+
+        </div>
+
+    </div>
+
+    <!-- En dış kapsayıcı -->
+
+
+
+    <!-- Js ekleme -->
+    <script src="main.js"></script>
+  </body>
+</html>
